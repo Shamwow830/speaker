@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    transition:0.7s;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #92EFE0;
+}
+
+#header 
+{
+    background-color: white;
+    height: 150px;
+    width: 500px;
+    margin-left: 33%;
+    margin-top: 5%;
+
+}
+
+h2
+{
+    padding-top: 25px;
+
+}
+
+h2, h4, h5
+{
+    margin-left: 20%;
+}
+
+/*.content*/
+#content
+{
+    background-color: white;
+    height: 520px;
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.inputName, .inputEmail
+{
+    margin-left: 20px;
+}
+
+.inputName
+{
+    margin-top: 20px;
+}
+
+.text-area
+{
+    margin-left: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+label
+{
+    margin-left: 10px;
+}
+
+#submitBtn
+{
+    margin-left: 40%;
+}
+
+#welcome
+{
+    margin-left: 35%;
+}

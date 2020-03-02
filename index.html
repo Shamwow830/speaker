@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body> 
+    <form onsubmit="return inputValidation()"> 
+        <!-- <div class="header"> -->
+        <div id="header"> 
+            <h2>Speaker Submission</h2>
+            <h4>Want to speak at our fake conference?</h4>
+            <h5>Fill out this form</h5>
+        </div>
+
+        <!-- <div class="content"> -->
+        <div id="content">
+
+            <label for="input_name">Name:</label>
+            <input type="text" id="input_name" class="inputName">
+
+            <br>
+            <br>
+
+            <label for="input_email">Email:</label>
+            <input type="text" id="input_email" class="inputEmail">
+            <label id="emailText" style="color:red;visibility:hidden"> </label>
+
+            <br>
+            <br>
+
+            <label>Type of Talk:</label>
+            <input type="radio" name="radioBtn" id="rd1" value="Main Stage">
+            <label for="rd1">Main Stage</label>
+            <input type="radio" name="radioBtn" id="rd2" value="Workshop">
+            <label for="rd2">Workshop</label>
+            <label id="radio_btn" style="color:red;visibility:hidden"> </label>
+
+
+            <br>
+            <br>
+
+            <label for="size">T-Shirt Size:</label>
+            <select id="size">
+                <option value="XS">Extra Small</option>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="textArea">Abstract</label>
+            <input type="text" id="textArea" class="text-area" maxlength="50"></input>
+
+            <br>
+            <br>
+
+            
+            <label for="available" id="avaL"><input type="checkbox" id="available">Im actually available the date of talk</label>
+
+            <br>
+            <br>
+
+            <div>
+                <a href="#welcome" id="link"></a>
+                    <input type="submit"  id="submitBtn">
+                <p id="welcome" style="color:green"></p>
+
+                <br>
+                <br> 
+            </div>
+        </div> 
+    </form> 
+</body>
+</html>
